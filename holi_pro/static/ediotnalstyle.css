@@ -1,0 +1,143 @@
+/* .text h1 {
+
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.material {
+    display: flex;
+    margin-top: 6%;
+    flex-direction: column;
+}
+
+.image {
+    position: absolute;
+    left: 62%;
+    top: 90vh;
+}
+
+.text {
+    margin-left: 5%;
+    margin-top: 9%;
+
+} */
+.container1 img,
+svg {
+    vertical-align: middle;
+    height: 20%;
+}
+
+.text h1 {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.text1 h1 {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.text1 {
+    position: relative;
+    left: 23vh;
+}
+
+.text2 {
+    position: relative;
+    left: 23vh;
+}
+
+.material {}
+
+.image {
+    position: relative;
+    left: 20%;
+}
+
+.text {}
+
+.material {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.ayush {
+
+    height: 45%;
+    width: 46%;
+    align-self: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:600px) {
+    .content1 {
+        flex-direction: column;
+    }
+
+    .content2 {
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        left: 0%;
+    }
+
+    .text h1 {
+        text-align: center;
+    }
+
+    .text2 {
+
+        left: 0%;
+    }
+
+    .text2 h1 {
+
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .test {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .w-100 {
+        
+        height: 48vh;
+    }
+}

@@ -19,4 +19,8 @@ from . import file
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', file.start,name='start'),
+    path('class10/', file.class10,name=''),
+    path('class9/', file.class9,name=''),
+    path('class8/', file.class8,name=''),
+    path('contactus/', file.contact,name=''),
 ]
